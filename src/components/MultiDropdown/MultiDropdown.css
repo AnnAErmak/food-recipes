@@ -1,0 +1,29 @@
+.multi-dropdown{
+    position: relative;
+    width: 100%;
+}
+.multi-dropdown__options {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    width: 100%;
+    background-color: var(--color-white);
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+}
+.multi-dropdown__option {
+    display: block;
+    padding: 14px 12px;
+    color: var(--color-black);
+    transition: color 300ms ease;
+    cursor: pointer;
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+.multi-dropdown__option:hover{
+    color: var(--color-blue-grey);
+}
+.multi-dropdown__option_selected{
+    color: var(--brand);
+}

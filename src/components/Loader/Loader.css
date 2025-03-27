@@ -1,0 +1,21 @@
+@import "../../styles/styles.css";
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.loader {
+  width: var(--size);
+  height: var(--size);
+  animation: spin 2s linear infinite;
+}
+
+.loader_size_s{
+  --size: 24px;
+}
+.loader_size_m{
+  --size: 48px;
+}
+.loader_size_l{
+  --size: 60px;
+}
