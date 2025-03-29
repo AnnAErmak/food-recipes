@@ -1,0 +1,47 @@
+@use 'variables' as *;
+@import './Roboto/fonts.css';
+
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+figure,
+pre {
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  //color: $color-text-primary;
+}
+body{
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
+#root{
+  background: rgba(255, 192, 118, 0.23);
+}
+.container{
+  max-width: 1240px;
+  margin: 0 auto;
+  height: 100%;
+}
+ul{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  list-style: none;
+}
+.active{
+  color: #b5460f;
+  text-decoration: none;
+}

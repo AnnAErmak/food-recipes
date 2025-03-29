@@ -1,6 +1,6 @@
 import * as React from 'react';
 import cn from 'classnames';
-import "./Icon.css";
+import "./Icon.scss";
 
 export type IconProps = React.SVGAttributes<SVGElement> & {
     className?: string;

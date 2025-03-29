@@ -1,0 +1,36 @@
+@use '../../styles/variables' as *;
+
+.header{
+  background: #fff;
+  height: 64px;
+
+  & .container {
+    display: flex;
+    align-items: center;
+  }
+  .wrapperLogo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .wrapperMenu{
+    margin-left: 80px;
+    & nav{
+      display: flex;
+      gap: 16px;
+      & a{
+        display: block;
+      }
+    }
+
+  }
+  .wrapperInfoProfile{
+    flex-grow: 1;
+    display: flex;
+    justify-content: end;
+    gap: 17px;
+  }
+}
+
+
+

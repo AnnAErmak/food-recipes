@@ -1,4 +1,4 @@
-@import "../../../styles/styles.css";
+@use "../../../styles/variables" as *;
 .icon {
     display: inline-block;
     flex-shrink: 0;
@@ -6,11 +6,11 @@
 }
 
 .icon_color_primary {
-    color: var(--color-black);
+    color: $color-text-primary;
 }
 .icon_color_secondary {
-    color: var(--color-blue-grey);
+    color: $text-secondary;
 }
 .icon_color_accent {
-    color: var(--brand);
+    color: $color-text-accent;
 }
