@@ -1,6 +1,6 @@
 import React from 'react';
 import cn from 'classnames';
-import "./Input.css";
+import "./Input.scss";
 
 export type InputProps = Omit<
   React.InputHTMLAttributes<HTMLInputElement>,
@@ -17,7 +17,7 @@ export type InputProps = Omit<
 const Input = React.forwardRef<HTMLInputElement, InputProps>(
   ({ value, onChange, className,afterSlot,
      disabled,
-      ...props}, ref) => {
+      ...props}) => {
 
     const handelChange = React.useCallback(
         (event: React.ChangeEvent<HTMLInputElement>): void => {
