@@ -1,7 +1,7 @@
 import React from 'react';
 import SpinnerIcon from "../icons/SpinnerIcon";
 import cn from "classnames";
-import './Loader.css'
+import './Loader.scss'
 
 export type LoaderProps = {
     /** Размер */

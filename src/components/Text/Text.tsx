@@ -1,6 +1,6 @@
 import * as React from 'react'
 import cn from "classnames";
-import './Text.css'
+import './Text.scss'
 
 export type TextProps = {
     /** Дополнительный класс */
