@@ -1,10 +1,9 @@
 import cn from "classnames";
 import * as React from "react";
-import {Link, NavLink} from "react-router-dom";
-import Container from "components/Container";
-import Heart from "components/Icons/Heart";
-import Logo from "components/Icons/Logo";
-import User from "components/Icons/User";
+import {NavLink} from "react-router-dom";
+import Heart from "components/icons/Heart";
+import Logo from "components/icons/Logo";
+import User from "components/icons/User";
 import Text from "components/Text";
 import styles from './Header.module.scss';
 
@@ -14,7 +13,7 @@ const Header: React.FC = () => {
         <header className={styles.header}>
             <div className={cn('container', styles.container)}>
                 <div className={cn(styles.wrapperLogo)}>
-                    <Logo/>
+                    <Logo />
                     <Text view={'p-20'} color={'primary'} weight={'bold'} tag={'span'}>
                         Food Client
                     </Text>
@@ -29,8 +28,8 @@ const Header: React.FC = () => {
                     </nav>
                 </div>
                 <div className={cn(styles.wrapperInfoProfile)}>
-                    <User color={'accent'}/>
                     <Heart color={'accent'}/>
+                    <User color={'accent'}/>
                 </div>
             </div>
         </header>

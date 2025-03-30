@@ -1,1 +1,1 @@
-export {default} from './Heart'
+export {default} from './Heart.tsx';
